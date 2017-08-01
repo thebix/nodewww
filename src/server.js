@@ -1,6 +1,6 @@
 import { log, logLevel } from './logger'
 import _config from './config'
-import lib from './lib/index'
+import lib from './lib/root'
 
 log(`Start server ${_config.isProduction ? '<Production>' : '<Debug>'}`, logLevel.INFO)
 
