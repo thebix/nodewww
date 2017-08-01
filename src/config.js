@@ -6,6 +6,6 @@ export default {
     dirStorage: `${__dirname}/storage/`,
     http: { // this property enables http server, comment if not needed
         port: 1488,
-        wwwroot: './wwwroot'
+        wwwroot: `${__dirname}/public`
     }
 }
