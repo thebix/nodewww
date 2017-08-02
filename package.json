@@ -1,10 +1,10 @@
 {
-    "name": "todo",
+    "name": "node-www",
     "version": "0.1.0",
     "description": "group stats",
     "keywords": [
-        "TODO",
-        "TODO"
+        "www",
+        "react"
     ],
     "main": "server.js",
     "scripts": {

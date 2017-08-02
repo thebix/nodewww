@@ -16,11 +16,11 @@ loaders.push({
 module.exports = {
     entry: [
         './src/wwwdev/src/index.jsx',
-        './styles/wwwdev/css/index.scss'
+        './src/wwwdev/css/index.scss'
     ],
     output: {
         publicPath: './',
-        path: path.join(__dirname, 'public'),
+        path: path.join(__dirname, 'wwwroot'),
         filename: '[chunkhash].js'
     },
     resolve: {

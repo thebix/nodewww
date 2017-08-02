@@ -56,6 +56,12 @@ module.exports = {
         // "react/jsx-indent": [ 2, 4 ]
     },
     "plugins": [
-        "import"
-    ]
+        "import",
+        "react"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    }
 };
