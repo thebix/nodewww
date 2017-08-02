@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import React, { Component } from 'react'
 import '../css/index.scss'
 
 export default class App extends Component {
@@ -7,7 +7,7 @@ export default class App extends Component {
             <div>
                 <h1>It Works!</h1>
                 <p>This React project just works including
-                    <span className="redBg">module</span> local styles.</p>
+                    &nbsp;<span className="redBg">module</span> local styles.</p>
             </div>
         )
     }
