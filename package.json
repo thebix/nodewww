@@ -20,14 +20,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/thebix/TODO.git"
+        "url": "git+https://github.com/thebix/nodewww.git"
     },
     "author": "Paul Byron",
     "license": "UNLICENSED",
     "bugs": {
-        "url": "https://github.com/thebix/TODO/issues"
+        "url": "https://github.com/thebix/nodewww/issues"
     },
-    "homepage": "https://github.com/thebix/TODO#readme",
+    "homepage": "https://github.com/thebix/nodewww#readme",
     "devDependencies": {
         "babel-cli": "latest",
         "babel-preset-es2015": "latest",

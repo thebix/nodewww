@@ -36,9 +36,20 @@ npm run start
 npm run wwwBuild
 ```
 builds to ./wwwroot
+
 //TODO: copy ./wwwroot to the right place?
 ```
 npm install
 npm build
 npm run serve
 ```
+
+## integration to another project
+### copy / modify
+* `./src/wwwdev`
+* `.babelrc`
+* `package.json`
+* `postcss.config.js`
+* `webpack.config.js`
+* `webpack.loaders.js`
+* `webpack.production.config.js`
