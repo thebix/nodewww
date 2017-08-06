@@ -8,15 +8,10 @@
     ],
     "main": "server.js",
     "scripts": {
-        "test": "mocha --compilers js:babel-register",
-        "start": "nodemon --trace-deprecation src/server.js --exec babel-node",
-        "debug": "nodemon --debug src/server.js --exec babel-node",
-        "build": "export NODE_ENV=production&& babel src -d dist",
-        "serve": "export NODE_ENV=production&& node dist/server.js",
-        "wwwBuild": "webpack --config webpack.production.config.js --progress --profile --colors",
-        "wwwStart": "webpack-dev-server --progress --profile --colors",
-        "wwwLint": "eslint --ext js --ext jsx src || exit 0",
-        "wwwDev": " webpack-dashboard -- webpack-dev-server --progress --profile --colors"
+        "build": "webpack --config webpack.production.config.js --progress --profile --colors",
+        "start": "webpack-dev-server --progress --profile --colors",
+        "lint": "eslint --ext js --ext jsx src || exit 0",
+        "dev": " webpack-dashboard -- webpack-dev-server --progress --profile --colors"
     },
     "repository": {
         "type": "git",
@@ -36,7 +31,7 @@
         "eslint-config-airbnb": "^15.0.1",
         "eslint-config-airbnb-base": "^11.2.0",
         "eslint-plugin-import": "^2.2.0",
-        "eslint-plugin-jsx-a11y": "5.0.1",
+        "eslint-plugin-jsx-a11y": "5.1.1",
         "eslint-plugin-react": "^7.0.1",
         "forever": "latest",
         "mocha": "latest",

@@ -24,7 +24,7 @@ module.exports = {
     devtool: process.env.WEBPACK_DEVTOOL || 'eval-source-map',
     output: {
         publicPath: '/',
-        path: path.join(__dirname, 'public'),
+        path: path.join(__dirname, 'wwwroot'),
         filename: 'bundle.js'
     },
     resolve: {
@@ -34,7 +34,7 @@ module.exports = {
         loaders
     },
     devServer: {
-        contentBase: './public',
+        contentBase: './wwwroot',
         // do not print bundle build stats
         noInfo: true,
         // enable HMR
